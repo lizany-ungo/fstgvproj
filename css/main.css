@@ -1,0 +1,134 @@
+.loginbg{
+  background-color:#484848;
+ }
+
+.logogv{
+  padding: 40px;
+  margin-bottom: 5px;
+}
+
+
+@media (min-width: 768px) { 
+
+    .logogv{
+      margin-top: 80px;
+    }
+
+.mypanel {
+  background-color: #f0f0f0;
+  padding: 40px 40px 100px 40px;
+  
+}
+
+.mypanel-title {
+  color: #606060;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.myloginbutton {
+  background-color: #f03030;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  border-radius: 3px;
+  border-color: transparent;
+}
+
+.myloginbutton:hover {
+   background-color: #f00000; 
+}
+
+
+
+<!-- This is the home -->
+
+.homebg {
+  background-color:#ffffff;
+ }
+
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #262626; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 9%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 10px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 20px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.sidebar {
+    padding: 20px 0;
+    border-right: solid 1px #ccc;
+
+}
+.sidebar h4 {
+  padding-left: 15px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #212529;
+    font-size: 20px; 
+}
+
+.sidebar li a:hover {
+  background-color: #028ad8;
+  color: #dadada;
+}
+
+.gvicon {
+    color: #dadada;
+}
+
+
+.container-fluid.main {
+ padding-left: 0;
+}
+
+.main-content {
+    padding: 20px 0;
+}
+
+.panlist {
+  border: thin solid;
+  border-color: #bdbdbd;
+  background-color: #edeaea;
+  margin-left: 10px;
+}
+
+.lkstyle {
+  text-decoration: none;
+}
+
+.lkstyle:hover {
+  border-color: #028ad8;
+}
+
+.txstyl {
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
