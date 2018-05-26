@@ -13,6 +13,7 @@
     .logogv{
       margin-top: 80px;
     }
+  }
 
 .mypanel {
   background-color: #f0f0f0;
@@ -118,17 +119,10 @@
   margin-left: 10px;
 }
 
-.lkstyle {
-  text-decoration: none;
+.panlist:hover{
+  border-color: blue;
 }
 
-.lkstyle:hover {
-  border-color: #028ad8;
-}
-
-.txstyl {
+.panlist a {
   text-decoration: none;
-  margin-top: 5px;
-  margin-left: 8px;
-  margin-bottom: 5px;
 }
