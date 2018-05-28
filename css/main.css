@@ -60,22 +60,27 @@
 .icon-bar a {
     float: left; /* Float links side by side */
     text-align: center; /* Center-align text */
-    width: 9%; /* Equal width (5 icons with 20% width each = 100%) */
+    width: 3%; /* Equal width (5 icons with 20% width each = 100%) */
     padding: 10px 0; /* Some top and bottom padding */
     transition: all 0.3s ease; /* Add transition for hover effects */
     color: white; /* White text color */
     font-size: 20px; /* Increased font size */
 }
 
+
 .icon-bar a:hover {
     background-color: #000; /* Add a hover color */
+}
+
+.icon-bar .dropdmenu {
+  float: right;
 }
 
 .sidebar {
     padding: 20px 0;
     border-right: solid 1px #ccc;
-
 }
+
 .sidebar h4 {
   padding-left: 15px;
 }
@@ -117,12 +122,28 @@
   border-color: #bdbdbd;
   background-color: #edeaea;
   margin-left: 10px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .panlist:hover{
   border-color: blue;
 }
 
-.panlist a {
-  text-decoration: none;
+
+.vertdots {
+  position: absolute;
 }
+
+.vertdots:after {
+  content: '\2807';
+  font-size: 40px;
+  color: #c4c4c4;
+  margin-left: 180px;
+}
+
+.txtstyle {
+  padding: 8px;
+}
+
+
