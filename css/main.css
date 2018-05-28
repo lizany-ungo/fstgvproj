@@ -121,7 +121,6 @@
   border: thin solid;
   border-color: #bdbdbd;
   background-color: #edeaea;
-  margin-left: 10px;
   text-decoration: none;
   color: #000000;
 }
@@ -146,4 +145,16 @@
   padding: 8px;
 }
 
+.nplist {
+  border: dotted 1px #028ad8;
+  margin-top: 30px;
+  height: 220px;
+}
+
+.nplist a { 
+  text-decoration: none;
+  padding: 60px;
+  display: block;
+  margin-top: 40px;
+}
 
